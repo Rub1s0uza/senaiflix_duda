@@ -7,7 +7,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="index.php?pagina=login">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.php?pagina=usuario_cadastrar">Usuário</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="index.php?pagina=clientes_listar">Clientes</a>
@@ -16,7 +19,7 @@
                     <a class="nav-link" href="index.php?pagina=filmes_listar">Filmes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php?pagina=fale_conosco">Contato</a>
+                    <a class="nav-link" href="index.php?pagina=assinaturas_listar">Assinaturas</a>
                 </li>
             </ul>
         </div>

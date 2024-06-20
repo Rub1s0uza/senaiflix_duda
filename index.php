@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Minha Página</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
 </head>
 <body>
        <!-- inlcuindo o header-->
@@ -21,6 +22,7 @@
             echo "<div class='alert alert-danger'>Página não encontrada.</div>";
         }
         ?>
+      
     </div>
 
     
