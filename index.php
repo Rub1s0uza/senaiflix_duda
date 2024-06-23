@@ -1,3 +1,7 @@
+<?php 
+include 'protect.php';
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -11,7 +15,7 @@
        <!-- inlcuindo o header-->
        <?php include 'header.php';?>
 
-    <div class="container-fluid my-5">
+       <div class="container-fluid my-5">
         <?php
         $pagina = isset($_GET['pagina']) ? $_GET['pagina'] : 'home';
         $pagePath = "pages/{$pagina}.php";
